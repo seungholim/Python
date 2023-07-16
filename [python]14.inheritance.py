@@ -19,13 +19,13 @@ class MStudent(Student): # Student 상속
     def __str__(self):
         return "안녕하세요 저는 {}이고 중학생입니다.".format(self.name)
 
-sasumi = Student('사스미', 4)
-haedal = EStudent('해달이', 1)
-boogie = MStudent('부기', 5)
+ho = Student('호', 4)
+hy = EStudent('히', 1)
+he = MStudent('헤', 5)
 
-print(sasumi)
-print(haedal)
-print(boogie)
+print(ho)
+print(hy)
+print(he)
 
-haedal.print_age()
-# sasumi.print_age()
+hy.print_age()
+# ho.print_age()
