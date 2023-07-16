@@ -9,7 +9,7 @@ data = sys.stdin.readline().rstrip()
 print(data)
 
 # String interpolation
-name = "해달"
+name = "호"
 print("안녕 나는 %s" % name)
 print("안녕 나는 " + name)
 print("안녕 나는", name)
@@ -22,9 +22,9 @@ print('a', 'b', 'c', 'd')
 print('a', 'b', 'c', 'd', sep='*')
 
 # print() end 옵션
-print("안녕 나는 해달") # end = "\n"
+print("안녕 나는 호") # end = "\n"
 print("만나서 반가워")
-print("안녕 나는 해달", end="!@#$%")
+print("안녕 나는 호", end="!@#$%")
 print("만나서 반가워")
 
 # 입출력
@@ -35,8 +35,8 @@ print("만나서 반가워")
 # print(f"{name}님의 10년 뒤 나이는 {age}세 입니다.")
 
 # 간단한 파일 출력
-f = open('haedal.txt', 'w')
-f.write("Hello Haedal!\n")
+f = open('ho.txt', 'w')
+f.write("Hello Ho!\n")
 f.write("Good Morning!")
 
 print("쓰기 종료")
@@ -44,10 +44,10 @@ print("쓰기 종료")
 f.close()
 
 # for문을 활용한 파일 출력
-f = open('haedal_for.txt', 'w')
+f = open('ho_for.txt', 'w')
 
 for i in range(100):
-    f.write(f"Hello Haedal! {i}\n")
+    f.write(f"Hello Ho! {i}\n")
 
 print("쓰기 종료")
 
@@ -55,19 +55,19 @@ f.close()
 
 # 간단한 파일 읽기
 print('\n# read()함수')
-f = open('haedal.txt', 'r')
+f = open('ho.txt', 'r')
 a = f.read()
 print(a)
 f.close()
 
 print('# readlines() 함수')
-f = open('haedal.txt', 'r')
+f = open('ho.txt', 'r')
 b = f.readlines() # 한 줄 씩 읽어서 list에 넣는다.
 print(b)
 f.close()
 
 print('# readline() 함수')
-f = open('haedal.txt', 'r')
+f = open('ho.txt', 'r')
 c = f.readline() # list에 넣는다.
 print(c)
 f.close()
