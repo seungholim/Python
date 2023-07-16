@@ -1,8 +1,8 @@
 # 홍길동씨 개인정보
 
-name = "홍길동"
-age = 25
-height = 184.6
+name = "임승호"
+age = 27
+weight = 58
 
 print(type(name))
 print(type(age))
