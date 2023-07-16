@@ -56,11 +56,11 @@
     
 #### 7. 반복문
    - for
-   - while
+   - #### 8. while
    - break
    - continue
     
-#### 8. 조건문
+#### 9. 조건문
    - if-elif-else
    - 삼항 연산자
    
