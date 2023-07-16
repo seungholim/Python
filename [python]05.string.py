@@ -1,20 +1,20 @@
 # 기본 문자열
-s2 = 'Hello, Haedal'
+s2 = 'Hello, Ho'
 print(s2)
-S2 = "Hello, Haedal!"
+S2 = "Hello, Ho!"
 print(S2)
-s6 = '''Hello, Haedal!'''
+s6 = '''Hello, Ho!'''
 print(s6)
-S6 = """Hello, Haedal!"""
+S6 = """Hello, Ho!"""
 print(S6)
 
 # 이스케이프 코드
 # \n, \t, \\, \', \"
 
-longtext1 = """Hello, Haedal!
+longtext1 = """Hello, Ho!
 My name us Haedal Programming"""
 print(longtext1)
-longtext2 = """Hello, Haedal!\nMy name us Haedal Programming"""
+longtext2 = """Hello, Ho!\nMy name us Haedal Programming"""
 print(longtext2)
 
 # String Interpolation
@@ -34,19 +34,19 @@ print(f'{a} {b}')
 print(f'{b} {a}')
 
 # 예제 
-name = "해달"
-eng_name = "Haedal"
+name = "호"
+eng_name = "Ho"
 
 print("안녕하세요. {1}입니다. My name is {0}".format(eng_name, name))
 print(f'안녕하세요. {name}입니다')
 
 # 문자열 인덱싱
-a = "Hello, Haedal!"
+a = "Hello, Ho!"
 print(a[1]) # e
 
 # 문자열 슬라이싱
-a = 'Hello, Haedal!'
-print(a[4:9])
+a = 'Hello, Ho!'
+print(a[4:6])
 
 # 문자열의 길이를 구하는 len()
 print(len(a))
@@ -65,9 +65,9 @@ print(a.upper())
 print(a.lower())
 
 # 문자열을 구분자에 따라 나누는 split()
-a = '안녕,나는,해달이야'
+a = '안녕,나는,호야'
 print(a.split(sep=','))
-b = '안녕 나는 해달이야'
+b = '안녕 나는 호야'
 print(b.split())
 
 # 여러개의 문자열 사이에 구분자를 넣어주는 join()
