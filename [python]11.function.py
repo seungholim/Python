@@ -33,11 +33,11 @@ print(value)
 # return이 발생하면 함수가 종료
 def return_example(a, b):
     if a>b :
-        print("해달이")
+        print("호")
         return
     else:
-        print("부기")
-    print("아리")
+        print("하")
+    print("헤")
 
 return_example(10, 20)
 return_example(30, 20)
@@ -77,7 +77,7 @@ def people_num(*args):
     result = len(args)
     return result
 
-value = people_num("해달이", "사스미", "시라용", "부기", "메기")
+value = people_num("호", "하", "히", "헤", "후")
 print(value, '명')
 
 # lambda 표현식
