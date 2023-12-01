@@ -1,42 +1,42 @@
 ### 1. 변수
    - 변수 이름 규칙
-   - ### 2. 숫자
-      * 정수형
-      * 실수형
-      * 복소수형
-   - ### 3. 불
-   - ### 4. 리스트
-      * 빈 리스트 선언
-      * 리스트 컴프리헨션
-      * 2차원 리스트 초기화
-      * 인덱스
-      * 슬라이싱
-      * 수정
-      * 리스트 관련 함수
-         * 길이 len()
-         * 요소 추가 append()
-         * 정렬 sort()  
-         * 뒤집기 reverse()
-         * 요소 삽입 insert()
-         * 요소 제거(by 값) remove()
-         * 요소 제거(by 인덱스) del
-         * 요소 개수 count()
-   - ### 5. 문자열
-      * 엔터 인식
-      * String Interpolation
-      * 문자열 표기 방식
-         * 문자열 옛날 방식
-         * pyformat
-         * f-string
-      * 인덱싱
-      * 슬라이싱
-      * 문자열 관련 함수
-         * len()
-         * min(), max()
-         * lower(), upper()
-         * split()
-         * join()
-   - ### 6. 튜플
+### 2. 숫자
+   - 정수형 `int`
+   - 실수형 `float`
+   - 복소수형 `complex`
+### 3. 불
+### 4. 리스트
+   - 빈 리스트 선언
+   - 리스트 컴프리헨션
+   - 2차원 리스트 초기화
+   - 인덱스
+   - 슬라이싱
+   - 수정
+   - 리스트 관련 함수
+      * 길이 `len()`
+      * 요소 추가 `append()`
+      * 정렬 `sort()`
+      * 뒤집기 `reverse()`
+      * 요소 삽입 `insert()`
+      * 요소 제거(by 값) `remove()`
+      * 요소 제거(by 인덱스) `del`
+      * 요소 개수 `count()`
+### 5. 문자열
+   * 엔터 인식
+   * String Interpolation
+   * 문자열 표기 방식
+      * 문자열 옛날 방식
+      * pyformat
+      * f-string
+   * 인덱싱
+   * 슬라이싱
+   * 문자열 관련 함수
+      * `len()`
+      * `min()`, `max()`
+      * `lower()`, `upper()`
+      * `split()`
+      * `join()`
+### 6. 튜플
    - 사전
       * 사전 자료형 관련 함수
          * keys & values 
@@ -52,7 +52,7 @@
     
 ### 7. 반복문
    - for
-   - ### 8. while
+### 8. while
    - break
    - continue
     
@@ -68,9 +68,9 @@
       * end
    - 파일 출력
    - 파일 읽기
-      * read()
-      * readline()
-      * readlines()
+      * `read()`
+      * `readline()`
+      * `readlines()`
    
 ### 11. 함수
    - 함수 정의
@@ -106,5 +106,5 @@
    - finally
    - else
    - raise
-      - 에러 메세지
+   - 에러 메세지
    - 주요 에러
